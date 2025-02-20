@@ -1,5 +1,18 @@
 # shipments-dasboard
 
+### Run locally
+##### Setup DB
+`docker-compose up -d db`
+##### Let the DB spin up, wait 30s, then run backend
+`docker-compose up -d backend`
+##### Run frontend
+`docker-compose up -d frontend`
+
+- http://localhost:5173/ React App
+- http://localhost:8000/docs for openapi spec
+
+
+
 # Logistics API
 
 <details>
