@@ -303,6 +303,8 @@ Get Summary Timeseries
 - Caching expensive queries with Redis
 - Caching API responses
 - Async db queries
+- Standardized API error responses
+- UI for error handling and loading
 - API authentication
 - Admin Page
 
