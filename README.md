@@ -1,6 +1,6 @@
 # shipments-dasboard
 
-### Run locally
+## Run locally
 ##### Setup DB
 `docker-compose up -d db`
 ##### Let the DB spin up, wait 30s, then run backend
@@ -13,7 +13,7 @@
 
 
 
-# Logistics API
+## Logistics API
 
 <details>
  <summary><code>GET</code><code>/shipments/{shipment_id}</code></summary>
@@ -281,3 +281,31 @@ Get Summary Timeseries
 | 422 | Validation Error |
 
 </details>
+
+## Other Notes
+
+<details>
+ <summary>Compromises Made</summary>
+ 
+#### Due to the time constraints I had and the nature of a take-home assignment, various compromises were made during development:
+
+- opted for raw SQL queries vs setting up schema migrations
+- opted for manual testing vs setting up a testing suite with unit and integration tests
+- opted for simpler, more standard REST endpoints
+- opted for synchronous database operations
+- very basic FE
+
+</details>
+
+<details>
+ <summary>Potential Future Optimizations/Expansions</summary>
+
+- Database connection pooling
+- Caching expensive queries with Redis
+- Caching API responses
+- Async db queries
+- API authentication
+- Admin Page
+
+</details>
+
