@@ -9,7 +9,6 @@
 `docker-compose up -d frontend`
 
 - http://localhost:5173/ React App
-- http://localhost:8000/docs for openapi spec
 
 
 
